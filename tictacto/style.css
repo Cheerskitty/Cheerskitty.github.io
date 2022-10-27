@@ -1,0 +1,181 @@
+html {
+  --color-green-100: rgb(238, 252, 226);
+  --color-green-300: rgb(153, 193, 118);
+  --color-green-500: rgb(91, 138, 51);
+  --color-green-700: rgb(57, 99, 20);
+  --color-green-900: rgb(28, 52, 7);
+}
+
+body {
+  margin: 3em 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: var(--color-green-900);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+aside {
+  position: fixed;
+  top: 20%;
+  left: 5%;
+  width: 90%;
+  background-color: white;
+  padding: 0 0 2em;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: none;
+}
+
+article {
+  width: 250px;
+  height: 150px;
+  background-color: var(--color-green-100);
+  text-align: center;
+  margin: 3em 2em;
+  padding: 0.7em 1.2em;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  line-height: 5px;
+}
+
+button {
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1.4em;
+  background-color: var(--color-green-500);
+  color: white;
+  cursor: pointer;
+  margin: 1em 0.5em 0.3em;
+}
+
+button:hover {
+  background-color: var(--color-green-700);
+}
+
+input {
+  display: inline-block;
+  margin: 0 0.5em 0em;
+  height: 1.6em;
+  font-size: 1rem;
+  text-indent: 0.5rem;
+}
+
+section {
+  margin: 2em auto;
+  width: 600px;
+  height: 90px;
+  background-color: var(--color-green-900);
+  color: white;
+  border-radius: 5px;
+  padding: 0.5em 1.2em;
+  display: none;
+}
+
+h1 {
+  margin: 0.5em 0 0.2em;
+}
+
+h2 {
+  margin: 30px;
+  color: var(--color-green-500);
+}
+
+h3 {
+  font-size: 30px;
+}
+
+footer {
+  display: none;
+}
+
+ul {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(3, 80px);
+  grid-template-columns: repeat(3, 80px);
+  justify-content: center;
+  margin: 2em 0;
+  padding: 0;
+}
+
+li {
+  background-color: var(--color-green-100);
+  list-style: none;
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: 33px;
+  font-weight: bold;
+  color: var(--color-green-900);
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: var(--color-green-500);
+  color: white;
+}
+
+.disabled {
+  background-color: var(--color-green-500);
+  color: white;
+  cursor: default;
+}
+
+.edit1,
+.edit2 {
+  color: var(--color-green-500);
+  cursor: pointer;
+}
+
+.edit1:hover,
+.edit2:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: var(--color-green-300);
+  background-color: var(--color-green-100);
+  padding: 0.8em 1.2em;
+  border-radius: 7px;
+  display: block;
+  margin: 3em auto;
+  width: 200px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 2.5em 0 0.5em;
+}
+
+.back-drop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+#goodGame {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  aside {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>tic-tac-to</title>
+  </head>
+  <body>
+    <div class="back-drop"></div>
+    <div class="title">Tic-Tac-To Challenge</div>
+    <aside>
+      <h3>Choose your Name</h3>
+      <form>
+        <div>
+          <label for="playerName">Player Name :</label>
+          <input type="text" name="playerName" id="playerName" required />
+        </div>
+        <p id="error"></p>
+        <div>
+          <button type="reset" id="cancel">Cancel</button>
+          <button type="submit" id="confirm">Confirm</button>
+        </div>
+      </form>
+    </aside>
+
+    <header>
+      <article id="player1ID">
+        <h4>player 1</h4>
+        <h2 class="player1">PLAYER 1</h2>
+        <h3>X</h3>
+        <div class="edit1" data-player="1">Edit</div>
+      </article>
+      <article id="player2ID">
+        <h4>player 2</h4>
+        <h2 class="player2">PLAYER 2</h2>
+        <h3>O</h3>
+        <div class="edit2" data-player="2">Edit</div>
+      </article>
+    </header>
+    <main>
+      <button id="startBtn">Start Game</button>
+    </main>
+    <footer>
+      <section>
+        <h1 id="msg">You Won, <span>PLAYER 1</span>!</h1>
+        <div>Click "Start Game" above, to begin a new game!</div>
+      </section>
+
+      <p id="turn">It's your turn <strong id="player"></strong>!</p>
+      <p id="goodGame">Good game Everyone!</p>
+      <ul>
+        <li data-col="1" data-row="1"></li>
+        <li data-col="2" data-row="1"></li>
+        <li data-col="3" data-row="1"></li>
+
+        <li data-col="1" data-row="2"></li>
+        <li data-col="2" data-row="2"></li>
+        <li data-col="3" data-row="2"></li>
+
+        <li data-col="1" data-row="3"></li>
+        <li data-col="2" data-row="3"></li>
+        <li data-col="3" data-row="3"></li>
+      </ul>
+    </footer>
+    <a href="/course-schedule.html">Back to Course Schedule</a>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/game.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

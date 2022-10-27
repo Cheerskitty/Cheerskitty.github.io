@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Form Challenge</title>
+  </head>
+  <body>
+    <h1>Form Challenge</h1>
+    <div class="container">
+    <form action="/" method="GET" >
+      <section>
+        <h2>How can we help you?</h2>
+        <ul>
+        
+          <li>
+            <label for="name">Your Name</label><br/>
+            <input type="text" name="user-name" id="name" required />
+          </li>
+          <li>
+            <label for="email">Your E-Mail Address</label>
+            <br/>
+            <input type="email" name="user-email" id="email" required />
+          </li>
+          <li>
+            <label for="phone">Your Phone Number</label>
+            <br/>
+            <input type="tel" name="user-phone" id="phone" required min-length="5" />
+          </li>
+          <li>
+            <label for="msg">Your Message</label>
+            <textarea
+              type="text"
+              name="user-msg"
+              id="msg"
+              row="8"
+              required
+            ></textarea>
+          </li>
+          <li>
+            <label for="find">How did you find us?</label><br/>
+            <select name="user-find" id="find"  required>
+              <option value="search">Web Search</option>
+              <option value="friends">Friends</option>
+              <option value="other">Other</option>
+            </select>
+          </li>
+        </ul>
+      </section>
+      <section>   
+        <footer>
+        <h2>How should we reply?</h2>   
+          
+        <ul>       
+          <li>
+            <input type="radio" name="reply" id="call" value="phone"  required/>
+            <label for="call">Call me</label>
+          </li>
+          <li>
+            <input type="radio" name="reply" id="email" value="email"  required />
+            <label for="call">Send me an email</label>
+           
+          </li>
+          <li>
+            <input type="radio" name="reply" id="no-reply" value="no-reply"  required />
+            <label for="no-reply">Don't reply</label>
+          </li>
+          <div> 
+            <input type="checkbox" name="accept-terms" id="accept-terms" />
+            <label for="accept-terms">Accept Terms</label>
+          </div>
+          <li class="btn"> 
+            <button type="reset">Clear</button>
+            <button>Submit</button></li>
+        </ul>        
+      </footer>  
+    </form>
+  </div>
+    <a href="/course-schedule.html">Back to Course Schedule</a>
+  </body>
+</html>

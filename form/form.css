@@ -1,0 +1,111 @@
+html {
+  --color-brown-100: rgb(246, 243, 242);
+  --color-brown-700: rgb(83, 69, 50);
+  --color-brown-900: rgb(59, 50, 50);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-brown-900);
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 1em 0 0;
+}
+
+button {
+  display: block;
+  width: 6em;
+  margin: 2em 0.6em 0;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background-color: var(--color-brown-900);
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-brown-700);
+}
+
+input {
+  width: 91%;
+  height: 2em;
+  margin-top: 0.5em;
+}
+
+textarea {
+  display: block;
+  width: 91%;
+  resize: none;
+  margin-top: 0.5em;
+}
+
+select {
+  margin-top: 0.5em;
+  width: 13em;
+  height: 2em;
+}
+
+section li {
+  list-style: none;
+  padding: 0.7em;
+}
+
+footer input {
+  width: 2em;
+  height: 1em;
+}
+
+footer li {
+  margin-bottom: -1em;
+}
+
+footer div {
+  margin-top: 3em;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  background-color: var(--color-brown-100);
+  color: var(--color-brown-900);
+  width: 200px;
+  padding: 0.8em 1.2em;
+  margin: auto;
+  border-radius: 7px;
+  color: rgb(143, 129, 110);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  background-color: var(--color-brown-100);
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(200, 200, 200);
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,80 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 5em auto 0;
+  font-weight: 800;
+  font-size: 2.2rem;
+  color: rgb(27, 5, 51);
+}
+
+label {
+  font-weight: 800;
+  font-size: 20px;
+  display: block;
+  margin: 10px 0;
+}
+
+form {
+  text-align: center;
+  width: 600px;
+  height: 150px;
+  padding: 1em 2em;
+  margin: 70px auto;
+  background-color: rgb(243, 233, 254);
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media screen and (max-width: 760px) {
+  form {
+    width: 450px;
+  }
+}
+
+input {
+  text-indent: 7px;
+  width: 350px;
+  height: 2em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 0 10px 0 0;
+}
+
+button {
+  margin: 1.3em auto;
+  display: block;
+  border: none;
+  background-color: rgb(183, 147, 221);
+  padding: 0.4em 1.2em;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(27, 5, 51);
+}
+
+button:hover {
+  background-color: rgb(87, 49, 128);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(183, 147, 221);
+  background-color: rgb(243, 233, 254);
+  padding: 0.8em 1.2em;
+  border-radius: 7px;
+  display: block;
+  margin: auto;
+  width: 200px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}

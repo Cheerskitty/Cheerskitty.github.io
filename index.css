@@ -1,0 +1,155 @@
+body {
+  text-align: center;
+}
+
+header {
+  margin: 5em auto 1em;
+  width: 550px;
+  border-radius: 10px;
+  background-color: rgb(40, 61, 67);
+  padding: 1em;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 3em auto -7.5em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(40, 61, 67);
+  font-weight: 800;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.2em;
+}
+
+h2 {
+  color: rgb(25, 5, 5);
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0.8em;
+}
+
+h3 {
+  margin-top: -0.2em;
+  font-size: 26px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 8px;
+  color: black;
+}
+
+div {
+  line-height: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(53, 80, 81);
+  font-size: 15px;
+}
+
+strong {
+  display: inline-block;
+  background-color: rgb(236, 240, 240);
+  padding: 0 3px;
+  border-radius: 5px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 4px 0 8px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#intro {
+  font-size: 42px;
+  color: gray;
+}
+
+.container {
+  text-align: center;
+  margin: 80px auto 30px;
+  background-color: rgb(243, 245, 245);
+  width: 700px;
+  height: 830px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.today-container {
+  width: 700px;
+  height: 220px;
+  margin: 30px auto;
+  background-color: rgb(243, 245, 245);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 6em 1em 4em;
+  text-align: center;
+  line-height: 2em;
+}
+
+.weekly-container {
+  width: 580px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.date {
+  /* color: #6a504a; */
+  color: #804f44;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.course-schedule {
+  width: auto;
+  padding: 20px 0 20px;
+  background-color: rgb(40, 61, 67);
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+main p {
+  color: #804f44;
+  background-color: rgb(228, 238, 238);
+  width: auto;
+  padding: 5px;
+}
+
+footer a {
+  display: inline-block;
+  background-color: rgb(243, 245, 245);
+  width: 180px;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+section div {
+  margin: 0 7px;
+}
